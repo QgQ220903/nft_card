@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Outfit&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body{
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit";
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.card{
+  background-color:  hsl(216, 50%, 16%);
+  width: 300px;
+  height: 530px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top:10px ;
+  
+}
+.card_infomation{
+  padding: 20px;
+}
+.card_creator{
+  padding: 20px;
+}
+.name{
+  margin-top: 30px;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2rem;
+}
+.info{
+  margin-top: 20px;
+  color: hsl(215, 51%, 70%);
+}
+
+.card_price{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.price_ETH{
+  color: hsl(178, 100%, 50%);
+  margin-left: 5px;
+}
+.price{
+  display: flex;
+}
+.days{
+  display: flex;
+}
+hr{
+  margin-top: 20px;
+}
+.card_img{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+
+}
+.day_left{
+  color: hsl(215, 51%, 70%);
+  margin-left: 5px;
+}
+.card_creator{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.creator_info{
+  color:hsl(215, 51%, 70%);
+  vertical-align: middle;
+}
+.creator_img{
+  margin-left: -10px;
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  
+  vertical-align:middle;
+}
+.author_name{
+  color: white;
+}
